@@ -1,0 +1,8 @@
+<!--pages/api/request/request.wxml-->
+<block wx:for="{{Info}}">
+  <view class="box">
+    <!--<image src="{{item.thumbnail}}"></image>-->
+    <view class="">{{item.name}}</view>
+    <view class="">{{item.description}}</view>
+  </view>
+</block>

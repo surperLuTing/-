@@ -1,0 +1,19 @@
+<!--pages/picker/picker.wxml-->
+<view class="box">
+  <view class="title">地区选择器</view>
+  <picker bindchange="BindPicker" value="{{index}}" range="{{arr}}">
+      <view class="classname">当前选择：{{arr[index]}}</view>
+  </picker>
+</view>
+<view class="box">
+  <view class="title">时间选择器</view>
+  <picker bindchange="BindTime" value="{{time}}" start="09:20" end="21:30" mode="time">
+      <view class="classname">当前选择：{{time}}</view>
+  </picker>
+</view>
+<view class="box">
+  <view class="title">日期选择器</view>
+  <picker bindchange="BindDate" value="{{date}}" start="2015-10-10" end="2017-10-10" mode="date">
+      <view class="classname">当前选择：{{date}}</view>
+  </picker>
+</view>

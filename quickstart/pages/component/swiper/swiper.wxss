@@ -1,0 +1,12 @@
+/* pages/swiper/swiper.wxss */
+.box{
+  background:paleturquoise;
+  font-family: 微软雅黑;
+}
+button{
+  margin:10px 0;
+}
+slider{
+  margin-top:20px;
+  margin-bottom:20px;
+}

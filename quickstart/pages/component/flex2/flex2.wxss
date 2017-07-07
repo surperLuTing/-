@@ -1,0 +1,82 @@
+/* pages/flex2/flex2.wxss */
+.box{
+  background: papayawhip;
+  font-family: '微软雅黑';
+  padding:20px;
+
+}
+.title{
+  text-align: center;
+  padding:0 10px;
+}
+.items{
+  display: flex;
+  flex-wrap:wrap;
+}
+.item{
+  width:25%;
+  height:50px;
+  background: springgreen;
+  line-height: 50px;
+  text-align: center;
+  margin:10px;
+  order:4;
+}
+.item4{
+  order:0;
+}
+.item3{
+  order:2;
+}
+.item2{
+  order:3;
+}
+.item5{
+  flex-grow:2;
+}
+.item6{
+  flex-grow:1;
+}
+.item7{
+  flex-shrink:0;
+}
+.items2{
+  display: flex;
+  height:80px;
+}
+.item8{
+  flex-basis:200px;
+}
+.itemr{
+  width:100px;
+  height:100px;
+  background: pink;
+  margin:10px;
+  
+}
+.items3{
+  display: flex;
+  align-content: space-between;
+  flex-wrap:wrap;
+  text-align: center;
+  line-height: 100px;
+  height:180px;
+  background: #ccc;
+  margin-bottom:10px;
+}
+.item10{
+  align-self:flex-start;
+  
+}
+.item11{
+  align-self:flex-end;
+}
+.item12{
+  align-self:center;
+}
+.item13{
+  align-self:baseline;
+}
+.item14{
+  align-self:stretch;
+}

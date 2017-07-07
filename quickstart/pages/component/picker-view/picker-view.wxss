@@ -1,0 +1,8 @@
+/* pages/picker-view/picker-view.wxss */
+.box{
+  background:paleturquoise;
+  padding:20px;
+}
+.time{
+  text-align: center;
+}

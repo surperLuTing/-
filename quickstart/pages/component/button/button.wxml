@@ -1,0 +1,26 @@
+<!--pages/button/button.wxml-->
+<view class="box">
+  <view class="title">size</view>
+  <button size="mini">size-mini</button>
+  <button size="default">size-default</button>
+  <view class="title">type</view>
+  <button type="default">正常</button>
+  <button type="warn">警告</button>
+  <button type="primary">基本</button>
+  <view class="title">disable</view>
+  <button type="primary" disabled>disabled-false</button>
+  <view class="title">loading</view>
+  <button type="primary" loading="true">loading</button>
+  <view class="title">from-type</view>
+  <button from-type="submit">表单submit提交</button>
+  <button from-type="reset">表单reset重置</button>
+  <view class="title">open-type</view>
+  <button type="primary" open-type="contact">contact会话</button>
+  <button open-type="share">share分享</button>
+  <view class="title">hover-class</view>
+  <button hover-class="hover">hover-class</button>
+  <view class="title">hover-start-time</view>
+  <button  hover-start-time="2000">hover-start-time</button>
+  <view class="title">hover-stay-time</view>
+  <button hover-stay-time="2000">hover-stay-time</button>
+</view>

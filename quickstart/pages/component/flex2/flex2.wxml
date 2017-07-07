@@ -1,0 +1,54 @@
+<!--pages/flex2/flex2.wxml-->
+<view class="box">
+  <view class="content">
+    <view class="title">order--值越小越靠前</view>
+    <view class="items"> 
+       <view class="item item1">22</view>
+       <view class="item item2" >7</view>
+       <view class="item item3">1</view>
+       <view class="item item4">11</view>
+    </view>
+  </view>
+  <view class="content">
+    <view class="title">flex-grow--默认为0</view>
+    <view class="items"> 
+       <view class="item item5" >放大2</view>
+       <view class="item item6">放大1</view>
+    </view>
+  </view>
+  <view class="content">
+    <view class="title">flex-shrink--默认为1</view>
+    <view class="items2"> 
+       <view class="item item7" >不缩小--0</view>
+       <view class="item">默认</view>
+       <view class="item" >默认</view>
+       <view class="item">默认</view>
+    </view>
+  </view>
+   <view class="content">
+    <view class="title">flex-basis</view>
+    <view class="items2"> 
+       <view class="item item8" >200px</view>
+       <view class="item">固定</view>
+    </view>
+  </view>
+  <view class="content">
+    <view class="title">align-self</view>
+    <view class="items3"> 
+       <view class="itemr item9">auto-默认</view>
+       <view class="itemr item10">flex-start</view>
+
+    </view>
+    <view class="items3"> 
+       
+       <view class="itemr item11">flex-end</view>
+       <view class="itemr item12">center</view>
+       
+    </view>
+    <view class="items3"> 
+       
+       <view class="itemr item13">baseline</view>
+       <view class="itemr item14">stretch</view>
+    </view>
+  </view>
+</view>

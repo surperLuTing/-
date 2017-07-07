@@ -1,0 +1,43 @@
+<!--pages/textarea/textarea.wxml-->
+<view class="box">
+  <view class="title">value</view>
+  <view class="show">
+    <textarea  value="我的value"/>
+  </view>
+</view>
+<view class="box">
+  <view class="title">placeholder</view>
+  <view class="show">
+    <textarea  placeholder="我的palceholder"/>
+  </view>
+</view>
+<view class="box">
+  <view class="title">palceholder-style</view>
+  <view class="show">
+    <textarea  placeholder-style="color:yellow;" placeholder="我是palceholder-style"/>
+  </view>
+</view>
+<view class="box">
+  <view class="title">palceholder-class</view>
+  <view class="show">
+    <textarea  placeholder-class="pclass" placeholder="我是palceholder-class"/>
+  </view>
+</view>
+<view class="box">
+  <view class="title">disabled</view>
+  <view class="show">
+    <textarea  disabled placeholder="我是disabled"/>
+  </view>
+</view>
+<view class="box">
+  <view class="title">maxlength</view>
+  <view class="show">
+    <textarea  maxlength="10" placeholder="最多输入10位"/>
+  </view>
+</view>
+<view class="box">
+  <view class="title">auto-height</view>
+  <view class="show">
+    <textarea  auto-height="true" placeholder="我是auto-height"/>
+  </view>
+</view>

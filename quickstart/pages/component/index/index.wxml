@@ -1,0 +1,121 @@
+<!--index.wxml-->
+<view style="padding-bottom:200px;">
+  <view class="img">
+     <image src="../../../images/6.jpg" mode="widthFix"></image>
+  </view>
+  <view class="container">
+    <view class="box">
+      <view class="titles" >基础实例</view>
+      <view class="user-derition">
+        <navigator url="../icons/icons">
+          <view class="btns">icon</view>
+        </navigator>
+        <navigator url="../texts/texts">
+          <view  class="btns">text</view>
+        </navigator>
+        <navigator url="../progress/progress">
+          <view  class="btns">progess</view>
+        </navigator>
+      </view>
+    </view>
+    <view class="box">
+      <view class="titles" >表单组件</view>
+      <view class="user-derition">
+        <navigator url="../button/button">
+          <view  class="btns">button</view>
+        </navigator>
+        <navigator url="../checkbox/checkbox">
+          <view  class="btns">checkbox</view>
+        </navigator>
+        <navigator url="../radio/radio">
+          <view  class="btns">radio</view>
+        </navigator>
+      </view>
+      <view class="user-derition">
+        <navigator url="../input/input">
+          <view  class="btns">input</view>
+        </navigator>
+        <navigator url="../slider/slider">
+          <view  class="btns">slider</view>
+        </navigator>
+        <navigator url="../switch/switch">
+          <view  class="btns">switch</view>
+        </navigator> 
+      </view>
+      <view class="user-derition">
+        <navigator url="../picker/picker">
+          <view  class="btns">picker</view>
+        </navigator>
+        <navigator url="../picker-view/picker-view">
+          <view  class="btns">picker-view</view>
+        </navigator>
+        <navigator url="../form/form">
+          <view  class="btns">form</view>  
+        </navigator>
+      </view>
+      <view class="user-derition">
+        <navigator url="../textarea/textarea">
+          <view class="btns">textarea</view>
+        </navigator>
+      </view>
+      
+    </view>
+    <view class="box">
+      <view class="titles" >swiper</view>
+      <view class="user-derition">
+        <navigator url="../swiper/swiper">
+          <view class="btns">swiper</view>
+        </navigator>
+      </view>
+    </view>
+    <view class="box">
+      <view class="titles" >媒体组件</view>
+      <view class="user-derition">
+        <navigator url="../audio/audio">
+          <view class="btns">audio</view>
+        </navigator>
+        <navigator url="../image/image">
+          <view  class="btns">image</view>
+        </navigator>
+        <navigator url="../video/video">
+          <view  class="btns">video</view>
+        </navigator>
+      </view>
+    </view>
+    <view class="box">
+      <view class="titles" >地图</view>
+      <view class="user-derition">
+        <navigator url="../map/map">
+          <view  class="btns">map</view>
+        </navigator>
+      </view>
+    </view>
+    <view class="box">
+      <view class="titles" >canvas</view>
+      <view class="user-derition">
+        <navigator url="../canvas/canvas">
+          <view class="btns">canvas</view>
+        </navigator>
+      </view>
+    </view>
+    <view class="box">
+      <view class="titles" >客服会话</view>
+      <view class="user-derition">
+        <navigator url="../contact-button/contact-button">
+          <view class="btns">contact-button</view>
+        </navigator>
+      </view>
+    </view>
+    <view class="box">
+      <view class="titles" >flex布局</view>
+      <view class="user-derition">
+        <navigator url="../flex/flex">
+          <view class="btns">flex--容器属性</view>
+        </navigator>
+        <navigator url="../flex2/flex2">
+          <view class="btns">flex--项目属性</view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</view>

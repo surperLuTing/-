@@ -1,0 +1,15 @@
+/* pages/textarea/textarea.wxss */
+.box{
+  background:pink;
+  font-family: 微软雅黑;
+  padding:20px;
+}
+textarea{
+  border:1px solid #222;
+}
+.title{
+ margin-bottom:10px;
+}
+.pclass{
+  color:aqua;
+}

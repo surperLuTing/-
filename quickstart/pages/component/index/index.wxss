@@ -1,0 +1,59 @@
+/**index.wxss**/
+.img{
+  position: absolute;
+  width:100%;
+  top:0;
+  left:0;
+  z-index: 0;
+  padding-top:100px;
+}
+.img image{
+  width:100%;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  color: #fff;
+  background:plum;
+  padding:10px 0;
+}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+
+
+.usermotto {
+  margin-bottom: 30px;
+  color:blueviolet;
+}
+.btns{
+  width:auto;
+  padding:0 10px;
+  height:30px;
+  line-height: 30px;
+  text-align: center;
+  border:1px solid pink;
+  border-radius:5px;
+  float:left;
+  margin-right:10px;
+  margin-bottom:10px;
+  background: #fff;
+}
+.box{
+  padding:10px 20px;
+  box-sizing:border-box;
+  font-family: 微软雅黑;
+}
+.titles{
+  padding:10px 0;
+  color:hotpink;
+}
+.user-derition{
+  display: flex;
+  justify-content: space-between;
+}

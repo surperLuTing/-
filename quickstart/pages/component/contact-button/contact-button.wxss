@@ -1,0 +1,9 @@
+/* pages/contact-button/contact-button.wxss */
+.box{
+  background:plum;
+  padding:20px;
+  font-family: 微软雅黑;
+}
+.talk{
+  margin-right:15px;
+}

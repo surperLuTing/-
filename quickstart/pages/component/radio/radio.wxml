@@ -1,0 +1,6 @@
+<!--pages/radio/radio.wxml-->
+<radio-group>
+   <label wx:for="{{items}}">
+      <radio value="{item.value}" checked="{item.checked}" />{{item.name}}
+   </label>
+</radio-group>

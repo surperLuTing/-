@@ -1,0 +1,93 @@
+<!--pages/input/input.wxml-->
+<view class="box">
+  <view class="title">value默认值</view>
+  <view class="section">
+      <text>value</text>
+      <input type="text" value="我是默认值"/>
+  </view>
+</view>
+<view class="box">
+  <view class="title">type</view>
+  <view class="section">
+      <text>text</text>
+      <input type="text" />
+  </view>
+  <view class="section">
+      <text>number</text>
+      <input type="number" />
+  </view>
+  <view class="section">
+      <text>idcard</text>
+      <input type="idcard" />
+  </view>
+  <view class="section">
+      <text>digit</text>
+      <input type="digit" />
+  </view>
+</view>
+<view class="box">
+  <view class="title">password</view>
+  <view class="section">
+      <text>password</text>
+      <input type="text" password="true"/>
+  </view>
+</view>
+<view class="box">
+  <view class="title">placeholder</view>
+  <view class="section">
+      <input type="text" placeholder="placeholder"/>
+  </view>
+</view>
+<view class="box">
+  <view class="title">placeholder-style</view>
+  <view class="section"> 
+      <input type="text" placeholder="placeholder-style" placeholder-style="color:red;"/>
+  </view>
+</view>
+<view class="box">
+  <view class="title">disabled</view>
+  <view class="section">
+      <input type="text" placeholder="disabled" disabled/>
+  </view>
+</view>
+<view class="box">
+  <view class="title">disabled</view>
+  <view class="section">
+      <input type="text" placeholder="disabled" disabled/>
+  </view>
+</view>
+<view class="box">
+  <view class="title">maxlength</view>
+  <view class="section">
+      <input type="text" placeholder="最多输入10位" maxlength="10"/>
+  </view>
+</view>
+<view class="box">
+  <view class="title">cursor-spacing</view>
+  <view class="section">
+      <input type="text" placeholder="cursor-spacing" cursor-spacing="10"/>
+  </view>
+</view>
+<view class="box">
+  <view class="title">confirm-type</view>
+  <view class="section">
+      <text>send-发送</text>
+      <input type="text" placeholder="" confirm-type="send"/>
+  </view>
+  <view class="section">
+      <text>search-搜索</text>
+      <input type="text" placeholder="" confirm-type="search"/>
+  </view>
+  <view class="section">
+      <text>next-下一个</text>
+      <input type="text" placeholder="" confirm-type="next"/>
+  </view>
+  <view class="section">
+      <text>go-前往</text>
+      <input type="text" placeholder="" confirm-type="go"/>
+  </view>
+  <view class="section">
+      <text>done-完成</text>
+      <input type="text" placeholder="" confirm-type="done"/>
+  </view>
+</view>

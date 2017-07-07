@@ -1,0 +1,220 @@
+<!--pages/flex/flex.wxml-->
+<view class="box">
+  <view class="big-title">flex-direction</view>
+  <view class="content">
+     <view class="title">flex-direction:row;默认</view>
+     <view class="show show1">
+        <view class="item">1</view>
+        <view class="item">2</view>
+        <view class="item">3</view>
+        <view class="item">4</view>
+        <view class="item">5</view>
+     </view>
+  </view>
+  <view class="content">
+     <view class="title">flex-direction:row-reverse;</view>
+     <view class="show show2">
+        <view class="item">1</view>
+        <view class="item">2</view>
+        <view class="item">3</view>
+        <view class="item">4</view>
+        <view class="item">5</view>
+     </view>
+  </view>
+  <view class="content">
+      <view class="title">flex-direction:column;</view>
+      <view class="show show3">
+          <view class="item">1</view>
+          <view class="item">2</view>
+          <view class="item">3</view>
+          <view class="item">4</view>
+          <view class="item">5</view>
+      </view>
+  </view>
+  <view class="content">
+      <view class="title">flex-direction:column-reverse;</view>
+      <view class="show show4">
+          <view class="item">1</view>
+          <view class="item">2</view>
+          <view class="item">3</view>
+          <view class="item">4</view>
+          <view class="item">5</view>
+      </view>
+  </view>
+  <view class="big-title">flex-warp</view>
+  <view class="content">
+      <view class="title">flex-warp:nowrap;默认</view>
+      <view class="show show5">
+          <view class="item">1</view>
+          <view class="item">2</view>
+          <view class="item">3</view>
+          <view class="item">4</view>
+          <view class="item">5</view>
+      </view>
+  </view>
+  <view class="content">
+      <view class="title">flex-warp:wrap;</view>
+      <view class="show show6">
+          <view class="item">1</view>
+          <view class="item">2</view>
+          <view class="item">3</view>
+          <view class="item">4</view>
+          <view class="item">5</view>
+      </view>
+  </view>
+  <view class="content">
+      <view class="title">flex-warp:wrap-reverse;</view>
+      <view class="show show7">
+          <view class="item">1</view>
+          <view class="item">2</view>
+          <view class="item">3</view>
+          <view class="item">4</view>
+          <view class="item">5</view>
+      </view>
+  </view>
+  <view class="big-title">justify-content</view>
+  <view class="content">
+      <view class="title">justify-content:flex-start;</view>
+      <view class="show show8">
+          <view class="item">1</view>
+          <view class="item">2</view>
+          <view class="item">3</view>
+          <view class="item">4</view>
+          <view class="item">5</view>
+      </view>
+  </view>
+  <view class="content">
+      <view class="title">justify-content:flex-end;</view>
+      <view class="show show9">
+          <view class="item">1</view>
+          <view class="item">2</view>
+          <view class="item">3</view>
+          <view class="item">4</view>
+          <view class="item">5</view>
+      </view>
+  </view>
+  <view class="content">
+      <view class="title">justify-content:center;</view>
+      <view class="show show10">
+          <view class="item">1</view>
+          <view class="item">2</view>
+          <view class="item">3</view>
+          <view class="item">4</view>
+          <view class="item">5</view>
+      </view>
+  </view>
+  <view class="content">
+      <view class="title">justify-content:space-between;</view>
+      <view class="show show11">
+          <view class="item">1</view>
+          <view class="item">2</view>
+          <view class="item">3</view>
+          <view class="item">4</view>
+          <view class="item">5</view>
+      </view>
+  </view>
+  <view class="content">
+      <view class="title">justify-content:space-around;</view>
+      <view class="show show12">
+          <view class="item">1</view>
+          <view class="item">2</view>
+          <view class="item">3</view>
+          <view class="item">4</view>
+          <view class="item">5</view>
+      </view>
+  </view>
+  <view class="big-title">align-items</view>
+  <view class="content">
+      <view class="title">align-items:flex-start;</view>
+      <view class="show show13">
+          <view class="item">1</view>
+          <view class="item item2">2</view>
+          <view class="item">3</view>
+      </view>
+  </view>
+  <view class="content">
+      <view class="title">align-items:flex-end;</view>
+      <view class="show show14">
+          <view class="item">1</view>
+          <view class="item item2">2</view>
+          <view class="item">3</view>
+      </view>
+  </view>
+  <view class="content">
+      <view class="title">align-items:center;</view>
+      <view class="show show15">
+          <view class="item">1</view>
+          <view class="item item2">2</view>
+          <view class="item">3</view>
+      </view>
+  </view>
+  <view class="content">
+      <view class="title">align-items:baseline;</view>
+      <view class="show show16">
+          <view class="item">1</view>
+          <view class="item item2">2</view>
+          <view class="item">3</view>
+      </view>
+  </view>
+  <view class="big-title">align-content</view>
+  <view class="content">
+      <view class="title">align-content:flex-start;</view>
+      <view class="show show17 colors">
+          <view class="item">1</view>
+          <view class="item item2">2</view>
+          <view class="item">3</view>
+          <view class="item">4</view>
+          <view class="item">5</view>
+      </view>
+  </view>
+  <view class="content">
+      <view class="title">align-content:flex-end;</view>
+      <view class="show show18 colors">
+          <view class="item">1</view>
+          <view class="item item2">2</view>
+          <view class="item">3</view>
+          <view class="item">4</view>
+          <view class="item">5</view>          
+      </view>
+  </view>
+  <view class="content">
+      <view class="title">align-content:center;</view>
+      <view class="show show19 colors">
+          <view class="item">1</view>
+          <view class="item item2">2</view>
+          <view class="item">3</view>
+          <view class="item">4</view>
+          <view class="item">5</view>          
+      </view>
+  </view>
+  <view class="content">
+      <view class="title">align-content:stretch;</view>
+      <view class="show show20 colors">
+          <view class="item">1</view>
+          <view class="item item2">2</view>
+          <view class="item">3</view>
+          <view class="item">4</view>
+          <view class="item">5</view>          
+      </view>
+  </view>
+  <view class="content">
+      <view class="title">align-content:space-between;</view>
+      <view class="show show21 colors">
+          <view class="item">1</view>
+          <view class="item item2">2</view>
+          <view class="item">3</view>
+          <view class="item">4</view>
+          <view class="item">5</view>          
+      </view>
+  </view>
+  <view class="content">
+      <view class="title">align-content:space-around;</view>
+      <view class="show show22 colors">
+          <view class="item">1</view>
+          <view class="item item2">2</view>
+          <view class="item">3</view>
+          <view class="item">4</view>
+          <view class="item">5</view>          
+      </view>
+  </view>
+</view>

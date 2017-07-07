@@ -1,0 +1,7 @@
+<!--pages/progress/progress.wxml-->
+<view class="Progress">
+    <progress percent="20" activeColor="#BAB5D7" show-info stroke-width="30" active backgroundColor="#EF87A8"/>
+    <progress percent="40" activeColor="#BAB5D7" stroke-width="30" show-info active backgroundColor="#EF87A8"/>
+    <progress percent="60" activeColor="#BAB5D7" stroke-width="30" show-info active backgroundColor="#EF87A8"/>
+    <progress percent="80" activeColor="#BAB5D7" stroke-width="30" show-info backgroundColor="#EF87A8" active/>
+</view>

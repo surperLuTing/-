@@ -1,0 +1,2 @@
+<!--pages/canvas/canvas.wxml-->
+<canvas style="width: 300px; height: 300px;" canvas-id="seconedCanvas"></canvas>

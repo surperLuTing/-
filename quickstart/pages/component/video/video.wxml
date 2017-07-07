@@ -1,0 +1,11 @@
+<!--pages/video/video.wxml-->
+<view class="box">
+  <video id="myVideo" src="http://musicdata.baidu.com/data2/video/541643252/1b663190389ceee197fc4c4bff45a2e8/541643252.mp4" controls autoplay="{{false}}" danmu-btn="{{true}}"  enable-danmu="{{true}}" style="width:100%;" danmu-list="{{danmuList}}"></video>
+  <button bindtap="changePlay">播放</button>
+  <button bindtap="changePause">暂停</button>
+  <button bindtap="BeginPlay">从头开始播放</button>
+  <button bindtap="Begin10">从10秒开始播放</button>
+  <input  placeholder="请输入弹幕" bindblur="bindInputblur"/>
+  <button type="primary" bindtap="SendDanmu">发送弹幕</button>
+
+</view>

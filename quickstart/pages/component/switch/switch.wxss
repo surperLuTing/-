@@ -1,0 +1,10 @@
+/* pages/switch/switch.wxss */
+.box{
+  background:peachpuff;
+  font-family: 微软雅黑;
+  padding:20px;
+
+}
+.title{
+  margin-bottom:10px;
+}

@@ -1,0 +1,6 @@
+/* pages/form/form.wxss */
+.box{
+  background: papayawhip;
+  padding:20px;
+  font-family: 微软雅黑;
+}

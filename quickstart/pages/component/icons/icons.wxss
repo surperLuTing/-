@@ -1,0 +1,21 @@
+view{
+  margin:20px 0 20px 0;
+  padding:20px;
+  background: papayawhip;
+  font-family: fantasy;
+}
+.TextCenter{
+  margin:0;
+  padding:0;
+  text-align: center;
+  margin-bottom:20px;
+}
+.Lists{
+  padding:0;
+  margin-bottom:10px;
+  align-items:center;
+}
+.Content{
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,49 @@
+<!--pages/slider/slider.wxml-->
+<view class="box">
+    <view class="title">min&&max</view>
+    <view class="view-slider">
+       <slider min="50" max="200" show-value/>
+    </view>
+</view>
+<view class="box">
+    <view class="title">step</view>
+    <view class="view-slider">
+       <slider step="10"/>
+    </view>
+</view>
+<view class="box">
+    <view class="title">value</view>
+    <view class="view-slider">
+       <slider value='26'/>
+    </view>
+</view>
+<view class="box">
+    <view class="title">color</view>
+    <view class="view-slider">
+       <slider color="red" value="60"  />
+    </view>
+</view>
+<view class="box">
+    <view class="title">backgroundColor</view>
+    <view class="view-slider">
+       <slider value="60" backgroundColor="blue"/>
+    </view>
+</view>
+<view class="box">
+    <view class="title">select-color</view>
+    <view class="view-slider">
+       <slider selected-color="yellow" value="60"/>
+    </view>
+</view>
+<view class="box">
+    <view class="title">active-color</view>
+    <view class="view-slider">
+       <slider value="60" active-color="blue"/>
+    </view>
+</view>
+<view class="box">
+    <view class="title">show-value</view>
+    <view class="view-slider">
+       <slider value="60" show-value="true"/>
+    </view>
+</view>

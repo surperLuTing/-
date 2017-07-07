@@ -1,0 +1,16 @@
+/* pages/button/button.wxss */
+.box{
+  padding:20px;
+  font-family: 微软雅黑,Georgia, 'Times New Roman', Times, serif;
+  background: skyblue;
+}
+.title{
+  text-align: center;
+  padding:20px 0;
+}
+button{
+  margin-top: 10px;
+}
+.hover{
+  background: hotpink;
+}

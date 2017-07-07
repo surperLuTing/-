@@ -1,0 +1,9 @@
+/* pages/picker/picker.wxss */
+.box{
+  background:lemonchiffon;
+  border-bottom:1px solid red;
+  padding:20px;
+}
+.title{
+  margin-bottom:10px;
+}

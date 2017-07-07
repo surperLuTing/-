@@ -1,0 +1,69 @@
+{
+  "pages":[
+   
+    "pages/component/index/index",
+    "pages/component/index2/index2",
+    "pages/component/index3/index3",
+    "pages/component/music/music",
+    "pages/component/musicShow/musicShow",
+    "pages/component/news/news",
+    "pages/component/newsShow/newsShow",
+    "pages/component/videoList/videoList",
+    "pages/component/videoShow/videoShow",
+    "pages/component/flex/flex",
+    "pages/component/flex2/flex2",
+    "pages/component/audio/audio",
+    "pages/component/image/image",
+    "pages/component/video/video",
+    "pages/component/map/map",
+    "pages/component/canvas/canvas",
+    "pages/component/contact-button/contact-button",    
+    "pages/component/texts/texts",
+    "pages/component/icons/icons",
+    "pages/component/button/button",
+    "pages/component/checkbox/checkbox",
+    "pages/component/form/form",
+    "pages/component/input/input",
+    "pages/component/radio/radio",
+    "pages/component/slider/slider",
+    "pages/component/switch/switch",
+    "pages/component/textarea/textarea",
+    "pages/component/picker/picker",
+    "pages/component/picker-view/picker-view",
+    "pages/component/progress/progress",
+    "pages/component/swiper/swiper",
+    "pages/api/request/request",
+    "pages/api/uploadFile/uploadFile"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#333",
+    "navigationBarTitleText": "微信小程序",
+    "navigationBarTextStyle":"#fff"
+  },
+  "tabBar": {
+    "color":"#333",
+    "selectedColor": "hotpink",
+    "position":"bottom",
+
+    "list": [{
+      "pagePath": "pages/component/index/index",
+      "text": "组件",
+      "iconPath": "images/1.png",
+      "selectedIconPath": "images/1.png"
+    },{
+      "pagePath": "pages/component/index2/index2",
+      "text": "API",
+      "iconPath": "images/2.png",
+      "selectedIconPath": "images/2.png"
+    },
+    {
+      "pagePath": "pages/component/index3/index3",
+      "text": "个人资料",
+      "iconPath": "images/3.png",
+      "selectedIconPath": "images/3.png"
+    }
+    ]
+  }
+  
+}

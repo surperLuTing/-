@@ -1,0 +1,8 @@
+/* pages/api/request/request.wxss */
+.box{
+  padding:10px 20px;
+  background: pink;
+  border-bottom:1px solid #ccc;
+  color:#fff;
+  font-family: 微软雅黑;
+}

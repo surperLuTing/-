@@ -1,0 +1,6 @@
+/* pages/slider/slider.wxss */
+.box{
+  background: powderblue;
+  font-family: 微软雅黑;
+  padding:20px;
+}

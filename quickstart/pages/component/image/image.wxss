@@ -1,0 +1,10 @@
+/* pages/image/image.wxss */
+.box{
+  background:papayawhip;
+  font-family: 微软雅黑;
+  padding:10px;
+  text-align: center;
+}
+.title{
+  margin:10px 0;
+}

@@ -1,0 +1,9 @@
+<!--pages/audio/audio.wxml-->
+<view class="box">
+  <audio src="{{src}}" id="myAudio" name="{{name}}" author="{{author}}" loop="{loop}" controls poster="{{poster}}"></audio>
+  <button bindtap="ChangeLoop">loop</button>
+  <button bindtap="ChangePlay">播放</button>
+  <button bindtap="ChangePause">暂停</button>
+  <button bindtap="seek10">设置当前播放时间为10秒</button>
+  <button bindtap="BeginSeek">从头开始播放</button>
+</view>

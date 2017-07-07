@@ -1,0 +1,5 @@
+<!--pages/contact-button/contact-button.wxml-->
+<view class="box">
+    <contact-button type="default-light" size="26" class="talk" session-from="webApp"></contact-button>客服会话
+</view>
+

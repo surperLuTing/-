@@ -1,0 +1,14 @@
+/* pages/input/input.wxss */
+.box{
+  background: lemonchiffon;
+  font-family: 微软雅黑;
+  padding:20px;
+}
+.title{
+  text-align: center;
+  margin-bottom:10px;
+}
+input{
+  border:1px solid #333;
+  padding-left:10px;
+}

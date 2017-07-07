@@ -1,0 +1,30 @@
+<!--icon.wxml-->
+<view class="box1">
+  <view class="TextCenter">icon类型--type</view>
+  <view class="Content">
+     <block wx:for="{{iconType}}">
+        <view class="Lists">
+            <icon type="{{item}}" size="40"/>
+        </view>
+        <text>{{item}}</text>
+      </block>
+  </view>
+</view>
+<view class="box2">
+  <view class="TextCenter">icon大小--size</view>
+  <block wx:for="{{iconSize}}">
+     <view class="Lists">
+        <icon type="success" size="{{item}}"/>
+        <text>{{item}}</text>
+     </view>
+  </block>
+</view>
+<view class="box3">
+  <view class="TextCenter">icon颜色--color</view>
+  <block wx:for="{{iconColor}}">
+     <view class="Lists">
+         <icon type="search" size="40" color="{{item}}"/>
+     </view>
+     <text>{{item}}</text>
+  </block>
+</view>

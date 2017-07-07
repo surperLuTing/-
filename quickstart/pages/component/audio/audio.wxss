@@ -1,0 +1,10 @@
+/* pages/audio/audio.wxss */
+.box{
+  text-align: center;
+  font-family: 微软雅黑;
+  background: paleturquoise;
+  padding:100px 20px 180px;
+}
+button{
+  margin:10px;
+}

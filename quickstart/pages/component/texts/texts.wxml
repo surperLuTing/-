@@ -1,0 +1,6 @@
+<!--pages/texts/texts.wxml-->
+<view class="Texts-view">
+   <text>{{text}}</text>
+   <button bindtap="add">add line</button>
+   <button bindtap="remove">remove line</button>
+</view>

@@ -1,0 +1,58 @@
+/**index.wxss**/
+.img{
+  position: absolute;
+  width:100%;
+  top:0;
+  left:0;
+  z-index: 0;
+  padding-top:100px;
+}
+.img image{
+  width:100%;
+}
+.img2{
+  position: absolute;
+  width:100px;
+  height:100px;
+  border-radius: 60px;
+  top:20px;
+  right:30px;
+  z-index: 0;
+  overflow: hidden;
+  border:5px solid pink;
+}
+.img2 image{
+  width:100%;
+}
+.btns{
+  width:auto;
+  padding:0 10px;
+  height:30px;
+  line-height: 30px;
+  text-align: center;
+  border:1px solid pink;
+  border-radius:5px;
+  float:left;
+  margin-right:10px;
+  margin-bottom:10px;
+  background: #fff;
+}
+.box{
+  padding:10px 20px;
+  box-sizing:border-box;
+  font-family: 微软雅黑;
+  
+}
+.titles{
+  padding:10px 0;
+  color:hotpink;
+}
+.titles text{
+  color:#333;background: #fff;
+  margin-left:10px;
+  padding:0 10px;
+}
+.user-derition{
+  display: flex;
+  justify-content: space-between;
+}

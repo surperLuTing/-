@@ -1,0 +1,37 @@
+<!--pages/switch/switch.wxml-->
+<view class="box"> 
+ <view class="title">checked--选中true</view>
+ <view class="show">
+   <switch type="switch" checked="true"/>
+ </view>
+</view>
+<view class="box"> 
+ <view class="title">checked--没有选中false--默认值</view>
+ <view class="show">
+   <switch type="switch" />
+ </view>
+</view>
+<view class="box"> 
+ <view class="title">type--switch</view>
+ <view class="show">
+   <switch type="switch"/>
+ </view>
+</view>
+<view class="box"> 
+ <view class="title">type--checkbox</view>
+ <view class="show">
+   <switch type="checkbox" checked="true"/>
+ </view>
+</view>
+<view class="box"> 
+ <view class="title">color</view>
+ <view class="show">
+   <switch type="switch" checked="true" color="pink"/>
+ </view>
+</view>
+<view class="box"> 
+ <view class="title">bindchange</view>
+ <view class="show">
+   <switch type="switch" checked="true" bindchange="switch1Change"/>
+ </view>
+</view>

@@ -1,0 +1,14 @@
+<!--pages/image/image.wxml-->
+<view class="box">
+  <view class="title">原图</view>
+  <view class="show">
+    <image src="{{src}}" ></image>
+  </view>
+</view>
+
+<view class="box" wx:for="{{array}}">
+  <view class="title">{{item.text}}</view>
+  <view class="show">
+    <image src="{{src}}" style="width:300px;height:300px;" mode="{{item.mode}}"></image>
+  </view>
+</view>

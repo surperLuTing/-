@@ -1,0 +1,19 @@
+
+<view style="padding-bottom:200px;">
+  <view class="img">
+     <image src="../../../images/6.jpg" mode="widthFix"></image>
+  </view>
+  <view class="img2">
+     <image src="../../../images/7.jpg" mode="widthFix"></image>
+  </view>
+  <view class="container">
+    <view class="box">
+      <view class="titles" >姓名:<text>高路婷</text></view>
+      <view class="titles" >性别:<text>女</text></view>
+      <view class="titles" >现居地:<text>杭州</text></view>
+      <view class="titles" >联系方式：<text>17696018825</text></view>
+      <view class="titles" >就职意向：<text>前端工程师</text></view>
+    </view>
+    
+  </view>
+</view>
